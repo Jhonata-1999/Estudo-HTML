@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Grouping Tags</title>
+    <STYle>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: antiquewhite;
+            margin: 10px;
+        }
+
+        header {
+            background-color: rgb(225, 157, 88);
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: bisque;
+            padding: 3px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: brown;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover { /**configuração para quando passar o mouse em cima no nome**/
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: rgb(226, 165, 103);
+            padding: 10px;
+            margin: 10px;
+        }
+
+        article {
+            background-color: bisque;
+            padding: 10px;
+        }
+
+        article > aside {
+            background-color: chocolate;
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+        }
+
+        footer {
+            background-color: brown;
+            color: antiquewhite;
+            text-align: center;
+            padding: 01px;
+            margin: 12px;
+        }
+    </STYle>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="Assuntos">
+            <p>Esportes</p>
+        </section>
+        <section id="Noticias">
+            <article>
+                <h2>Noticias do Brasil</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia commodi sint, sunt ex consequuntur exercitationem consequatur quaerat necessitatibus esse soluta dolor dolorum voluptatibus, numquam quasi ea temporibus beatae officia eaque.</p>
+                <aside>
+                    <p>Artigo escrito por John Button</p>
+                </aside>
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        <p>Curso de CSS3</p>
+    </footer>
+
+</body>
+</html>
