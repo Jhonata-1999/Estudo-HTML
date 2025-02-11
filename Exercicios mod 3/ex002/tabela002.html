@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 500px;
+            position: relative;
+        }
+
+        td, th {
+            padding: 10px;
+            border: 1px solid black;
+        }
+
+        caption {
+            background-color: rgba(0, 0, 0, 0.175);
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        thead, tfoot {
+            background-color: rgb(97, 97, 97);
+            color: white;
+        }
+
+        thead > tr > th { /* para fixar cabeçalho */
+            position: sticky;
+            top: -1px;
+            background-color: rgb(97, 97, 97);
+        }
+
+        tbody > tr:nth-child(odd) { /* para fazer efeito zebrado (2n-1) */
+            background-color: rgba(128, 128, 128, 0.238);
+        }
+
+        tbody > tr:nth-child(even) { /* 2n */
+            background-color: rgba(255, 255, 255, 0.414);
+        }
+
+        td.num {
+            text-align: right;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Tabela complexa</h1>
+    <table>
+        <caption>População das Unidades Federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 100px;">População</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 015</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 520</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 264 056</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">17 568 456</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">11 254 069</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">11 598 784</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">9 256 487</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="num">9 023 564</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td class="num">8 125 987</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="num">7 256 487</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</th>
+                <td class="num">203 564 810</td>
+            </tr>
+        </tfoot>
+    </table>
+    <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores unde vel molestias ipsa tempora omnis sint vitae enim laudantium sequi iusto quia vero veritatis fugit eveniet deserunt, quae maiores. Quisquam.
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus impedit explicabo voluptatum, mollitia unde aliquam assumenda architecto non consectetur laborum esse repellendus vitae veniam doloremque nesciunt, veritatis nemo minus repellat?
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa repellat nisi adipisci, provident magnam accusamus consectetur deserunt, similique ipsam ducimus inventore eos earum dicta, omnis nulla! Cupiditate nesciunt eos odio.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo soluta, reprehenderit quaerat fugiat odit impedit hic voluptates. Vitae, ad sed error officia fugit autem earum natus vel culpa voluptatem accusantium!
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate ad est quibusdam id, nemo distinctio eius esse, cum at aut rerum assumenda non, corporis debitis nam sit! Vero, ea tempora?
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam facere quas voluptates deleniti sunt! Laudantium est qui illo impedit. Vero eligendi quam deleniti itaque, assumenda minima tempora deserunt ab? Delectus.
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum, suscipit sapiente blanditiis sit excepturi nulla autem iure repudiandae quam id reprehenderit reiciendis voluptates mollitia fugiat, dicta praesentium, illum maiores distinctio?
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam minima voluptate, perspiciatis voluptates repellendus illum perferendis in repellat quod iusto ad dolor praesentium asperiores iure odio itaque voluptas sequi quos.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque eligendi libero, dolor, nisi unde atque iure, ad eius architecto quasi expedita consectetur. Mollitia nesciunt esse alias et rerum delectus quo?
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quia omnis enim magnam labore ut corporis quae inventore nostrum facilis soluta fugit exercitationem similique repudiandae facere eius praesentium, ex non!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. A distinctio libero eligendi cumque, fugit doloribus blanditiis, corporis suscipit tempore eaque inventore veritatis aspernatur, magni at iste odio sit? Porro, quia!
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium illo, corporis, id ullam, debitis voluptate modi et non laboriosam a facilis! Dignissimos corporis dolore laborum? Vel amet rerum eveniet sapiente.
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio pariatur ipsam ullam dolorum a, libero obcaecati sunt et optio est deserunt quidem vitae reiciendis dolor vel non aliquam voluptatibus autem.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio ut fugit sit dolor, ea sint consequatur fuga aspernatur alias incidunt aperiam praesentium assumenda nostrum in. Assumenda adipisci rerum quis dignissimos.
+</p>
+</body>
+</html>
