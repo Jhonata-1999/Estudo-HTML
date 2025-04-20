@@ -41,8 +41,8 @@ img {
     margin: auto;
 }
 
-img#pc {display: block;}
-img#telefone {display: none;}
+img#pc {display: none;}
+img#telefone {display: block;}
 img#impressora {display: none;}
 img#tablet {display: none;}
 img#tv {display: none;}
